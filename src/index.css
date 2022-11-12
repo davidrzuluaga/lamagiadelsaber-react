@@ -1,0 +1,269 @@
+
+@media (min-width: 768px) {
+    body {
+        font-family: 'ABeeZee', cursive;
+    }
+    body p {
+        font-family: 'Kalam', cursive;
+    }
+}
+.row {
+    margin-right: 0px
+}
+.col-12 {
+    padding: 0px 0px 0px 0px
+}
+#modalhelpa {
+    color: rgb(0, 112, 156);
+    cursor: pointer;
+}
+.boletines {
+    margin-right: 150px;
+    margin-left: 20px;
+}
+.header {
+    background: url('https://s3.us-east-2.amazonaws.com/lamagiadelsaber.edu.co/bannerimg.jpg') no-repeat 50%;
+    background-size: cover;
+}
+.banner {height: 350px;}
+.drops {
+    background: url('https://s3.us-east-2.amazonaws.com/lamagiadelsaber.edu.co/drops.png') bottom repeat-x; 
+    background-size: 250px 30px;
+    height: 30px;
+}
+.dropsreverted {
+    background: url('https://s3.us-east-2.amazonaws.com/lamagiadelsaber.edu.co/dropsreverted.png') top repeat-x; 
+    background-size: 250px 30px;
+    height: 30px;
+}
+.logo {
+    padding-top: 25px;
+}
+.grades {
+    background-color: #2A99A9;
+    background-size: cover;
+    text-shadow: rgb(5, 5, 5) 1px 5px 10px;
+}
+.grade {
+    background: url('https://s3.us-east-2.amazonaws.com/lamagiadelsaber.edu.co/013cbca25e17d8cecbab15f4c7b89566_590x390.png') no-repeat 50%;
+    background-size: cover;
+    height: 230px;
+    text-shadow: rgb(5, 5, 5) 1px 5px 10px;
+}
+.grade h2 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 220px; 
+    color: white;
+    font-size: 40px;
+}
+.dropsrevertedgrades {
+    background: url('https://s3.us-east-2.amazonaws.com/lamagiadelsaber.edu.co/dropsrevertedgrades.png') top repeat-x; 
+    background-size: 250px 30px;
+    height: 30px;
+}
+.main {
+    background: url('https://s3.us-east-2.amazonaws.com/lamagiadelsaber.edu.co/9af170c64c0b9012e984c62ca93dc2b8.jpg') top repeat-y;
+    /*background-size: cover;*/
+}
+#main {padding-top: 30px;}
+.mission h2 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.mission p {
+    padding-left: 50px;
+}
+.mission .card {
+    background-color: rgba(75, 117, 158, 0.795);
+    border-style: dotted;
+    border-color: rgb(2, 58, 66);
+    color: rgb(255, 255, 255);
+}
+#infocard {
+    background-color: #2a98a962;
+    margin-left: 20px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+#infocard a {
+    color: #0c7c8d;
+  }
+#infocard a:hover {
+    color: rgb(77, 162, 175);  
+}
+#infocard {
+    text-align: center;
+}
+#infocard .mouse {
+    text-align: right;
+}
+#lema {
+    background-color: rgba(236, 206, 210, 0.548);
+    margin-left: 20px;
+    margin-top: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+#lema a {
+    color: #F05B6D;
+    text-decoration: none;
+  }
+#lema a:hover {
+    color: rgb(185, 105, 115);  
+    text-decoration: none;
+}
+#lema .btn {
+    color: white;
+}
+#docente {
+    background-color: #2a98a962;
+    margin-left: 20px;
+    margin-top: 20px;
+    vertical-align: middle;
+    color: #0c7c8d;
+}
+#programas {
+    background-color: rgba(75, 117, 158, 0.795);    
+    margin-left: 20px;
+    margin-top: 20px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+#programas li {
+    color: #0c7c8d;
+}
+#footer {
+    padding-left: 100px;
+    background-color: #2A99A9;
+    color: white;
+    height: auto;
+    padding-bottom: 20px; 
+}
+#footer .location {
+    padding-top: 20px; 
+}
+#footer .social {
+    padding-top: 60px; 
+}
+#footer .schedule {
+    padding-top: 20px; 
+}
+.schedule h3 {
+    font-size: 20px;
+}
+.dropsgrades {
+    margin-top: 25px;
+    background: url('https://s3.us-east-2.amazonaws.com/lamagiadelsaber.edu.co/dropsgrades.png') top repeat-x; 
+    background-size: 250px 30px;
+    height: 30px;
+}
+.dropsfooterinfo {
+    background: url('https://s3.us-east-2.amazonaws.com/lamagiadelsaber.edu.co/dropsfooterinfo.png') top repeat-x; 
+    background-color: #2A99A9;
+    background-size: 250px 30px;
+    height: 30px;
+}
+#footerinfo {
+    background-color: #105c68;
+    color: white;
+    height: 60px;
+}
+#footerinfo #info {
+    margin-left: 200px;
+    font-size: 15px;
+    padding-top: 18px; 
+}
+#footerinfo #creator {
+    margin-right: 200px;
+    font-size: 15px;
+    padding-bottom: 18px; 
+    text-align: right;
+}
+#footerinfo a {
+    color: white;
+}
+
+#teacher {
+    background-color: rgba(236, 206, 210, 0.548);
+    margin-left: 20px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+#teacher h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+#teacher p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+#nostrosmission {
+    color: #187280;    
+    margin-left: 20px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+#nostrosmission h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+#nostrosmission p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+#nostrosfilosofia {
+    color: rgb(185, 105, 115);      
+    margin-left: 20px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+#nostrosfilosofia h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+#nostrosfilosofia p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.separation {
+    margin-top: 10px 
+}
+.direccion p { margin: 0;}
+.gallery {
+    margin-right: 20%;
+}
+#gallerybutton a:hover {cursor: pointer;}
+.dropdown-toggle:hover {cursor: pointer;}
+.boletines {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list-group-flush .controles {
+    text-align: end
+}
+.info {
+    margin-top: 20px;
+}
+.boletines .body {
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 5px;
+    background-color: rgb(218, 246, 255);
+}
+.boletines .body p {
+    padding-left: 20px;
+}
+.newphoto .form-group {
+    padding: 5px  5px  5px  5px 
+}
+.admin .card{
+    margin-top: 20px;
+}
