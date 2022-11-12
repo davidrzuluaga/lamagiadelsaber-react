@@ -9,7 +9,7 @@ export const Home = () => {
         <div className="row">
           <div className="offset-lg-2 col col-lg-8">
             <div id="infocard" className="card">
-              <a href="/padres#inicio">
+              <a href="https://www.facebook.com/centrolamagiadelsaber/">
                 <div className="card-body">
                   <h2>
                     Informacion para Padres y Boletines
