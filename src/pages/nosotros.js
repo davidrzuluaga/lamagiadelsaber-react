@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Nosotros = () => {
   return (
     <>
@@ -92,7 +94,7 @@ export const Nosotros = () => {
       </div>
       <div class="offset-sm-2 col-md-8">
         <div id="infocard" class="card">
-          <a href="/simbolos#inicio">
+          <Link to="/simbolos#inicio">
             <div class="card-body">
               <h2>
                 Simbolos de Nuestra Institución
@@ -105,7 +107,7 @@ export const Nosotros = () => {
                 />
               </h2>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </>

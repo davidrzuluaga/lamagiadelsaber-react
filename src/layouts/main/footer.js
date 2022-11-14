@@ -1,5 +1,5 @@
 export const Footer = () => {
-return (
+  return (
     <>
       <div className="col-12">
         <div className="dropsgrades"></div>
@@ -51,7 +51,11 @@ return (
                   cite="https://www.facebook.com/centrolamagiadelsaber/"
                   className="fb-xfbml-parse-ignore"
                 >
-                  <a href="https://www.facebook.com/centrolamagiadelsaber/">
+                  <a
+                    href="https://www.facebook.com/centrolamagiadelsaber/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     La Magia del Saber
                   </a>
                 </blockquote>
@@ -64,7 +68,7 @@ return (
         <div className="dropsfooterinfo"></div>
         <div className="row" id="footerinfo">
           <div className="col align-self-start" id="info">
-            ©{(new Date().getFullYear())} LaMagiadelSaber.edu.co
+            ©{new Date().getFullYear()} LaMagiadelSaber.edu.co
           </div>
           <div className="col align-self-end" id="creator">
             <a href="http://davidrzuluaga.com" target="_blank" rel="noreferrer">

@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 export const Navbar = () => {
   return (
     <nav
-      className="navbar navbar-expand-sm navbar-light bg-light"
+      className="navbar navbar-expand-sm navbar-light"
       data-toggle="affix"
     >
       <div className="mx-auto d-sm-flex d-block flex-sm-nowrap">
-        <a className="nav-link" href="/">
+        <Link className="nav-link" to="/">
           La Magia del Saber
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,24 +26,24 @@ export const Navbar = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <Link className="nav-link" to="/">
                 Inicio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/nosotros#inicio">
+              <Link className="nav-link" to="/nosotros#inicio">
                 Nosotros
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/simbolos">
+              <Link className="nav-link" to="/simbolos">
                 Simbolos
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contacto#inicio">
+              <Link className="nav-link" to="/contacto#inicio">
                 Contacto
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

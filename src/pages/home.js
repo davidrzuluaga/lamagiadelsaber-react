@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Levels } from "./home/levels";
 
 export const Home = () => {
@@ -9,7 +10,11 @@ export const Home = () => {
         <div className="row">
           <div className="offset-lg-2 col col-lg-8">
             <div id="infocard" className="card">
-              <a href="https://www.facebook.com/centrolamagiadelsaber/">
+              <a
+                href="https://www.facebook.com/centrolamagiadelsaber/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div className="card-body">
                   <h2>
                     Informacion para Padres y Boletines
@@ -35,13 +40,13 @@ export const Home = () => {
                   Educativo a la población infantil desde el nivel preescolar en
                   los grados de pre-jardín, jardín y transición.{" "}
                 </p>
-                <a
-                  href="/nosotros#mision"
+                <Link
+                  to="/nosotros#mision"
                   className="btn btn-primary float-right"
                   role="button"
                 >
                   Ver Mas
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -56,18 +61,18 @@ export const Home = () => {
           </div>
           <div className="offset-lg-2 col-lg-8">
             <div id="lema" className="card">
-              <a href="/nosotros">
+              <Link to="/nosotros">
                 <div className="card-body">
                   <h2>Virtud, Ciencia y Poder</h2>
-                  <a
-                    href="/simbolos#inicio"
+                  <Link
+                    to="/simbolos#inicio"
                     className="btn btn-primary float-center"
                     role="button"
                   >
                     Nuestro Lema
-                  </a>
+                  </Link>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="offset-lg-2 col-md-6 col-lg-4">
@@ -85,13 +90,13 @@ export const Home = () => {
                   En la Magia del Saber contamos con un equipo docente altamente
                   calificado.
                 </p>
-                <a
-                  href="/nosotros#docentes"
+                <Link
+                  to="/nosotros#docentes"
                   className="btn btn-primary float-right"
                   role="button"
                 >
                   Ver Mas
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -112,13 +117,13 @@ export const Home = () => {
                 <li className="list-group-item">Salidas Pedagógicas</li>
               </ul>
               <div className="card-body">
-                <a
-                  href="/nosotros"
+                <Link
+                  to="/nosotros"
                   className="btn btn-primary float-right"
                   role="button"
                 >
                   Lee Mas
-                </a>
+                </Link>
               </div>
             </div>
           </div>
